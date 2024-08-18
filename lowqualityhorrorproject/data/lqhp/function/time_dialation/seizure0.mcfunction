@@ -8,4 +8,4 @@ execute as @e[tag=lowqualityhorrorproject] at @s if score @s lqhp.randomday.2 ma
 execute as @e[tag=lowqualityhorrorproject] at @s if score @s lqhp.randomday.2 matches 3 run time set midnight
 execute as @e[tag=lowqualityhorrorproject] at @s if score @s lqhp.randomday.2 matches 4 run time set night
 #repeats function if score is 1
-execute as @e[tag=lowqualityhorrorproject] at @s if score @s lqhp.randomday.1 matches 1 run schedule function lqhp:time_dialation/seizure0 2 replace
+execute as @e[tag=lowqualityhorrorproject] at @s if score @s lqhp.randomday.1 matches 1 run schedule function lqhp:time_dialation/seizure0 0.3s replace
